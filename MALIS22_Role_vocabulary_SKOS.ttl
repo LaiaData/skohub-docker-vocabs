@@ -1,8 +1,8 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix joconde: <http://data.culture.fr/thesaurus/resource/ark:/> .
-@prefix wikidata: <https://www.wikidata.org/wiki/> .
-@base <http://example.org/MUSEONETVocab/>.
+@prefix joconde: <http://data.culture.fr/thesaurus/resource/ark:> .
+@prefix wikidata: <https://www.wikidata.org/wiki> .
+@base <http://example.org/MUSEONETVocab>.
 
 #Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform existiert wird hier das example Domain verwendet.
 #Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
@@ -55,7 +55,7 @@
         "Architecte"@fr, 
         "Architekt*in"@de, 
         "Architect"@en ;
-    skos:exactMatch joconde:<67717/?idc=T513-32793&idt=th80> ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32793&idt=th80> ;
     skos:closeMatch wikidata:<Q42973> .
 
 <Role/245186>
@@ -67,7 +67,7 @@
         "Waffenschmied*in"@de, 
         "Armourer"@en ;
     skos:altLabel "Armorer"@en ;
-    skos:exactMatch joconde:<67717/?idc=T513-32796&idt=th80> ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32796&idt=th80> ;
     skos:closeMatch wikidata:<Q1371796> .
 
 <Role/172415>

@@ -27,6 +27,7 @@
     skos:inScheme <Role> ; 
     skos:broader <Role/30472> ;
     skos:narrower <Role/172157> ;
+    skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-35707&idt=th80> ;
     skos:closeMatch wikidata: <Q3621491> ;
     skos:definition 
         "Personne en relation avec la trouvaille d'un objet"@fr, 

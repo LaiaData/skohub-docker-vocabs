@@ -30,7 +30,7 @@
     skos:narrower <Role/172121> ;
     skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de ;
     skos:TopConceptOf <Role> .
- 
+  
 #Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Objekt.
 <Role/172121>
     a skos:Concept ;

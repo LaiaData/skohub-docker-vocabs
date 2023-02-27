@@ -73,7 +73,7 @@ jobs:
 
       - run: mkdir data
 
-      - run: git clone https://github.com/LaiaData/MALIS_IT2_Skosprojekt.git data/
+      - run: git clone https://github.com/LaiaData/skohub-docker-vocabs.git data/
 
       - name: make .env file
 

@@ -96,7 +96,7 @@
 <Role/172141>
     a skos:Concept ;
     skos:inScheme <Role> ;
-    skos:broader <Role172415> ;
+    skos:broader <Role/172415> ;
     skos:prefLabel
         "Dessinateur.rice"@fr,
         "Zeichner*in"@de,

@@ -20,22 +20,23 @@
         "Role"@en ;
     skos:narrower <Role/172121> ;
     skos:editorialNote "Die in diesem Vokabular integrierten Begriffe beziehen sich auf die Rolle, die ein Akteur in Beziehung zu einem Objekt gehabt hat. Nicht allgemein um z.B. Aktivitäten, die ein Akteur wärend seiner Existenz ausgeführt hat."@de .
- #Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Objekt.
+ 
+#Hier wurde closeMatch statt exactMatch ausgewählt, da der Begriff bei Wikidata als instance of profession (Beruf) verstanden wird, nicht als Rolle in Bezug auf ein Objekt.
 <Role/172121>
     a skos:Concept ;
     skos:inScheme <Role> ; 
     skos:broader <Role/30472> ;
     skos:narrower <Role/172157> ;
-    skos:prefLabel 
-        "Archéologue"@fr, 
-        "Archäologe*in"@de, 
-        "Archaeologist"@en ;
     skos:exactMatch joconde:<67717/?idc=T513-35707&idt=th80> ;
     skos:closeMatch wikidata:<Q3621491> ;
     skos:definition 
         "Personne en relation avec la trouvaille d'un objet"@fr, 
         "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 
-        "Person in relation to the finding of an object"@en .
+        "Person in relation to the finding of an object"@en ;
+   skos:prefLabel 
+        "Archéologue"@fr, 
+        "Archäologe*in"@de, 
+        "Archaeologist"@en .
 
 <Role/172157>
     a skos:Concept ;

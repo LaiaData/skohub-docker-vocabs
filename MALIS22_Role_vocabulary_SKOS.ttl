@@ -27,8 +27,8 @@
     skos:inScheme <Role> ; 
     skos:broader <Role/30472> ;
     skos:narrower <Role/172157> ;
-    skos:exactMatch joconde:<67717/?idc=T513-35707&idt=th80> ;
-    skos:closeMatch wikidata:<Q3621491> ;
+    skos:exactMatch joconde: <67717/?idc=T513-35707&idt=th80> ;
+    skos:closeMatch wikidata: <Q3621491> ;
     skos:definition 
         "Personne en relation avec la trouvaille d'un objet"@fr, 
         "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 

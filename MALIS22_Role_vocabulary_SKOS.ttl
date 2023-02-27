@@ -199,7 +199,7 @@
          "Décorateur.rice"@fr,
          "Dekorateur*in"@de,
          "Decorator"@en ;
-     skos:closeMatch wikidata:<Q22811707> .
+     skos:closeMatch <https://www.wikidata.org/wiki/Q22811707> .
 
 <Role/172140>
      a skos:Concept ;
@@ -209,4 +209,4 @@
          "Designer"@fr,
          "Entwerfer*in"@de,
          "Designer"@en ;
-     skos:closeMatch wikidata:<Q5322166> .
+     skos:closeMatch <https://www.wikidata.org/wiki/Q5322166> .

@@ -1,11 +1,11 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix joconde: <http://data.culture.fr/thesaurus/resource/ark:/> .
-@prefix wikidata: <https://www.wikidata.org/wiki/> .
+@prefix wikidata: <https://www.wikidata.org/entitiy/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @base <http://example.org/MUSEONETVocab/>.
- 
+
 #Da das Vokabular noch nicht auf einer öffentlich zugänglichen Plattform existiert wird hier das example Domain verwendet.
 #Sobald das Vokabular veröffentlicht wird, soll dieses durch die tatsächliche URI ersetzt werden.
 <Role>
@@ -38,7 +38,7 @@
     skos:broader <Role/30472> ;
     skos:narrower <Role/172157> ;
     skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-35707&idt=th80> ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q3621491> ;
+    skos:closeMatch <https://www.wikidata.org/entity/Q3621491> ;
     skos:definition 
         "Personne en relation avec la trouvaille d'un objet"@fr, 
         "Person, die in Beziehung zu dem Fund eines Objektes steht"@de, 
@@ -66,7 +66,7 @@
         "Architekt*in"@de, 
         "Architect"@en ;
     skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32793&idt=th80> ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q42973> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q42973> .
 
 <Role/245186>
     a skos:Concept ;
@@ -78,7 +78,7 @@
         "Armourer"@en ;
     skos:altLabel "Armorer"@en ;
     skos:exactMatch <http://data.culture.fr/thesaurus/resource/ark:/67717/?idc=T513-32796&idt=th80> ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q1371796> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q1371796> .
 
 <Role/172415>
     a skos:Concept ;
@@ -91,7 +91,7 @@
         "Artiste"@fr, 
         "Künstler*in"@de, 
         "Artist"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q15296811> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q15296811> .
 
 <Role/172141>
     a skos:Concept ;
@@ -101,7 +101,7 @@
         "Dessinateur.rice"@fr,
         "Zeichner*in"@de,
         "Draughtsperson"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q15296811> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q15296811> .
 
 <Role/172241>
     a skos:Concept ;
@@ -111,7 +111,7 @@
         "Peintre"@fr,
         "Maler*in"@de,
         "Painter"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q1028181> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q1028181> .
 
 <Role/172274>
     a skos:Concept ;
@@ -130,7 +130,7 @@
         "Atelier monétaire"@fr,
         "Münzwerkstatt"@de,
         "Mint"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q464780> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q464780> .
 
 <Role/172128>
     a skos:Concept ;
@@ -140,7 +140,7 @@
         "Auteur.rice"@fr,
         "Autor*in"@de,
         "Author"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q482980> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q482980> .
 
 <Role/218999>
     a skos:Concept ;
@@ -159,7 +159,7 @@
         "Brodeur.euse"@fr,
         "Sticker*in"@de,
         "Embroiderer"@en ;
-    skos:closeMatch <https://www.wikidata.org/wiki/Q1509440> .
+    skos:closeMatch <https://www.wikidata.org/entity/Q1509440> .
 
 <Role/172131>
      a skos:Concept ;
@@ -169,7 +169,7 @@
          "Cartographe"@fr,
          "Kartograph*in"@de,
          "Cartographer"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Q1734662> .
+     skos:closeMatch <https://www.wikidata.org/entity/Q1734662> .
 
 <Role/214980>
      a skos:Concept ;
@@ -179,7 +179,7 @@
          "Commandataire.rice"@fr,
          "Auftraggeber*in"@de,
          "Contracting authority"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Property:P88> .
+     skos:closeMatch <http://www.wikidata.org/entity/Q760086> .
 
 <Role/253201>
      a skos:Concept ;
@@ -189,7 +189,7 @@
          "Compositeur.rice"@fr,
          "Komponist*in"@de,
          "Composer"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Q36834> .
+     skos:closeMatch <https://www.wikidata.org/entity/Q36834> .
   
 <Role/248039>
      a skos:Concept ;
@@ -199,7 +199,7 @@
          "Confiseur.se"@fr,
          "Zuckerbäcker*in"@de,
          "Confectioner"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Q2992505> .
+     skos:closeMatch <https://www.wikidata.org/entity/Q2992505> .
 
 <Role/236429>
      a skos:Concept ;
@@ -209,7 +209,7 @@
          "Décorateur.rice"@fr,
          "Dekorateur*in"@de,
          "Decorator"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Q22811707> .
+     skos:closeMatch <https://www.wikidata.org/entity/Q22811707> .
 
 <Role/172140>
      a skos:Concept ;
@@ -219,4 +219,4 @@
          "Designer"@fr,
          "Entwerfer*in"@de,
          "Designer"@en ;
-     skos:closeMatch <https://www.wikidata.org/wiki/Q5322166> .
+     skos:closeMatch <https://www.wikidata.org/entity/Q5322166> .
